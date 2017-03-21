@@ -6,8 +6,8 @@
   "main": "src/index.js",
   "maintainers": [
     {
-      "email": "mail@svdgraaf.nl",
-      "name": "Sander van de Graaf"
+      "email": "benjamin.weigel@europace.de",
+      "name": "Benjamin Weigel"
     }
   ],
   "dependencies": {
@@ -16,8 +16,11 @@
   },
   "license": "MIT",
   "repository": {
-    "git":"https://github.com/svdgraaf/serverless-plugin-stage-variables"
+    "git": "https://github.com/svdgraaf/serverless-plugin-stage-variables"
   },
   "name": "serverless-plugin-stage-variables",
-  "version": "1.6.6"
+  "version": "1.6.6",
+  "devDependencies": {
+    "lodash": "^4.17.4"
+  }
 }
